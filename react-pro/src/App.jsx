@@ -15,6 +15,11 @@ import Counter1 from './Counter1'
 import Toggler from './Toggler'
 import ScoreKeeper1 from './ScoreKeeper1'
 import EmojiClicker1 from './EmojiClicker1'
+import UsernameForm from './UsernameForm'
+import SignupForm from './SignupForm'
+import BettersignupForm from './BettersignupForm'
+import ShoppingListForm from './ShopppingListForm'
+import ShoppingList1 from './ShoppingList1'
 const data=[
   {item:"eggs",quantity:12,completed:false},
   {item:"milk",quantity:1,completed:true},
@@ -46,7 +51,12 @@ function App() {
         {/* <Counter1/> */}
         {/* <Toggler/> */}
         {/* <ScoreKeeper1/> */}
-        <EmojiClicker1/>
+        {/* <EmojiClicker1/> */}
+        {/* <UsernameForm/> */}
+        {/* <SignupForm/> */}
+        {/* <BettersignupForm/> */}
+        <ShoppingList1/>
+        {/* <ShoppingListForm/> */}
 
       </div>
     </>

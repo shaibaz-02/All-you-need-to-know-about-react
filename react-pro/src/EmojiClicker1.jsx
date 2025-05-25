@@ -18,6 +18,13 @@ export default function EmojiClicker1(){
             })
         })
     }
+    function makeSame(){
+        setEmojis((oldEmojis) =>{
+            return oldEmojis.map((e) =>{
+                return {...oldEmojis,emoji:"😪"}
+            })
+        })
+    }
     return(
         <div>
             {emojis.map((e) => (
@@ -27,6 +34,7 @@ export default function EmojiClicker1(){
             ))}
             <button onClick={addEmoji}>add emoji</button>
             <button onClick={makeHeart}>make hearts</button>
+            <button onClick={makeSame}>make same again</button>
         </div>
     )
 }
